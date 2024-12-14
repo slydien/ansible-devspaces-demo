@@ -15,29 +15,29 @@
 	],
 	"extensions": {
 		"recommendations": [
-      "ms-python.python",
-      "redhat.ansible",
-      "redhat.vscode-openshift-connector",
-      "ms-python.black-formatter"
+      			"ms-python.python",
+      			"redhat.ansible",
+      			"redhat.vscode-openshift-connector",
+      			"ms-python.black-formatter",
 			"johnpapa.winteriscoming",
 			"cnshenj.vscode-task-manager",
 		]
 	},
 	"settings": {
 		"workbench.colorTheme": "Winter is Coming (Dark Blue)",
-    "files.associations": {
-        "*.yaml": "ansible",
-        "*.yml": "ansible"
-      },
-    "ansible.ansible.path": "/usr/local/bin/ansible",
-    "ansible.python.interpreterPath": "/bin/python",
-    "ansible.ansible.useFullyQualifiedCollectionNames": true,
-    "ansible.ansibleNavigator.path": "ansible-navigator",
-    "ansible.completion.provideModuleOptionAliases": true,
-    "ansible.completion.provideRedirectModules": true,
-    "ansible.validation.enabled": true,
-    "ansible.validation.lint.enabled": true,
-    "ansible.validation.lint.path": "/usr/local/bin/ansible-lint"
+		"files.associations": {
+			"*.yaml": "ansible",
+			"*.yml": "ansible"
+		},
+		"ansible.ansible.path": "/usr/local/bin/ansible",
+		"ansible.python.interpreterPath": "/bin/python",
+		"ansible.ansible.useFullyQualifiedCollectionNames": true,
+		"ansible.ansibleNavigator.path": "ansible-navigator",
+		"ansible.completion.provideModuleOptionAliases": true,
+		"ansible.completion.provideRedirectModules": true,
+		"ansible.validation.enabled": true,
+		"ansible.validation.lint.enabled": true,
+		"ansible.validation.lint.path": "/usr/local/bin/ansible-lint",
 		"workbench.preferredDarkColorTheme": "Winter is Coming (Dark Blue)",
 		"workbench.preferredLightColorTheme": "Winter is Coming (Light)",
 		"editor.wordWrap": "on"
