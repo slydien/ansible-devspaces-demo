@@ -33,6 +33,8 @@ components:
       cpuLimit: 2000m
       args: ['tail', '-f', '/dev/null']
       env:
+        - name: 'VSCODE_DEFAULT_WORKSPACE'
+          value: '/projects/ansible-devspaces-demo/.code-workspace'
         - name: 'ANSIBLE_COLLECTIONS_PATH'
           value: '~/.ansible/collections:/usr/share/ansible/collections:/projects/ansible-devspaces-demo/collections'
 commands:
