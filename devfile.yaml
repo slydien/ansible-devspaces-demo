@@ -1,6 +1,28 @@
 schemaVersion: 2.2.0
 metadata:
   name: ansible-demo
+projects:
+- name: ansible-demo
+  git:
+    checkoutFrom:
+      remote: origin
+      revision: main
+    remotes:
+      origin: https://github.com/slydien/ansible-devspaces-demo.git
+- name: ansible-bootstrap
+  git:
+    checkoutFrom:
+      remote: origin
+      revision: main
+    remotes:
+      origin: https://github.com/slydien/ansible-bootstrap
+- name: ansible-media
+  git:
+    checkoutFrom:
+      remote: origin
+      revision: main
+    remotes:
+      origin: https://github.com/slydien/ansible-docker-media-stack
 components:
   - name: tooling-container
     container:
