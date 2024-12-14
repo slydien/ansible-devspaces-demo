@@ -2,7 +2,7 @@ schemaVersion: 2.2.0
 metadata:
   name: ansible-demo
 projects:
-- name: ansible-demo
+- name: ansible-devspaces-demo
   git:
     checkoutFrom:
       remote: origin
@@ -16,7 +16,7 @@ projects:
       revision: main
     remotes:
       origin: https://github.com/slydien/ansible-bootstrap
-- name: ansible-media
+- name: ansible-docker-media-stack
   git:
     checkoutFrom:
       remote: origin
